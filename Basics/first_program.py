@@ -13,3 +13,5 @@ s1.iloc[2]
 marks = pd.Series([88,56,69,60,65], index=['maths','eng','sci','geo','history'])
 
 print(marks)
+
+marks.loc['eng']
