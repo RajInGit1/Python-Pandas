@@ -17,3 +17,5 @@ print(marks)
 marks.loc['eng']
 
 print(marks.at['eng'])
+
+marks.at['eng'] = 91
