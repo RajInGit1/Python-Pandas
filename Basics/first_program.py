@@ -19,3 +19,6 @@ marks.loc['eng']
 print(marks.at['eng'])
 
 marks.at['eng'] = 91
+
+marks.at['geo'] = 95
+print(marks.at['geo'])
