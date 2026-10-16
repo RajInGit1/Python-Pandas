@@ -25,3 +25,6 @@ print(marks.at['geo'])
 
 # accessories
 accesseries = pd.Series(['laptop','mouse','keyboard'], index = [60000, 500, 1200])
+
+
+print(accesseries)
