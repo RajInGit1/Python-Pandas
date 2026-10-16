@@ -23,4 +23,5 @@ marks.at['eng'] = 91
 marks.at['geo'] = 95
 print(marks.at['geo'])
 
-# marks
+# accessories
+accesseries = pd.Series(['laptop','mouse','keyboard'], index = [60000, 500, 1200])
