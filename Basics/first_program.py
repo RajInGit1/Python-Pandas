@@ -37,3 +37,5 @@ age = pd.Series({
   'krishna':34,
   'shiv':25
 })
+
+print(age)
