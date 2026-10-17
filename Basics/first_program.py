@@ -28,3 +28,12 @@ accesseries = pd.Series(['laptop','mouse','keyboard'], index = [60000, 500, 1200
 
 
 print(accesseries)
+
+
+# create with dict
+
+age = pd.Series({
+  'ram':24,
+  'krishna':34,
+  'shiv':25
+})
