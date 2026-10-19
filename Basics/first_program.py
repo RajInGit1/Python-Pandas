@@ -51,3 +51,6 @@ s = pd.Series(
 
 print(s.loc['A'])
 print(s.iloc[0])
+
+print(s.at['A'])
+print(s.iat[0])
