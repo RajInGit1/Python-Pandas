@@ -48,3 +48,6 @@ s = pd.Series(
   [10,33,56,67,72,79,12],
   index = ['A','B','C','D','E',''F','G']
 )
+
+print(s.loc['A'])
+print(s.iloc[0])
