@@ -54,3 +54,9 @@ print(s.iloc[0])
 
 print(s.at['A'])
 print(s.iat[0])
+
+
+s1 = pd.Series(
+   [11,22,33,44,55],
+   index = ['0', '1', '2', '3', '4']
+)
