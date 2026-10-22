@@ -64,3 +64,4 @@ s1 = pd.Series(
 
 print(s1)
 s1.loc[ 3]
+s1.iat[ 3]
