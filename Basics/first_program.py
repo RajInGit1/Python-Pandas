@@ -72,3 +72,4 @@ sales = pd.DataFrame{
     'Price':[12000,500,600]
 
 }
+print(sales)
