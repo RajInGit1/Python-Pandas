@@ -73,3 +73,4 @@ sales = pd.DataFrame{
 
 }
 print(sales)
+df.iloc[2]
