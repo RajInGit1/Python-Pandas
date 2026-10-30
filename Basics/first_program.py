@@ -74,3 +74,5 @@ sales = pd.DataFrame{
 }
 print(sales)
 df.iloc[2]
+
+# Creating DataFeame
