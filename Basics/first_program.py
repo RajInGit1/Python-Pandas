@@ -86,4 +86,14 @@ sales = pd.DataFrame{
 print(sales)
 df.iloc[2]
 
-# Creating DataFeame
+# Creating DataFeam
+
+data = {
+    'Name': ['John', 'Alice', 'Bob'],
+    'Age': [25, 30, 22],
+    'City': ['Mumbai', 'Delhi', 'Pune']
+}
+
+df = pd.DataFrame(data)
+
+print(df)
