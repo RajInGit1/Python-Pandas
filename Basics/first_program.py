@@ -30,6 +30,17 @@ accesseries = pd.Series(['laptop','mouse','keyboard'], index = [60000, 500, 1200
 
 print(accesseries)
 
+import pandas as pd
+
+data = {
+    'Name': ['John', 'Alice', 'Bob'],
+    'Age': [25, 30, 22],
+    'City': ['Mumbai', 'Delhi', 'Pune']
+}
+
+df = pd.DataFrame(data)
+
+print(df)
 
 # create with dict
 
