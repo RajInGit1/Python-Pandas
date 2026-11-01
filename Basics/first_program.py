@@ -94,6 +94,8 @@ data = {
     'City': ['Mumbai', 'Delhi', 'Pune']
 }
 
+# reading null values
+
 df = pd.DataFrame(data)
 
 print(df)
