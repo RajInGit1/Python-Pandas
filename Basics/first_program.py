@@ -100,3 +100,4 @@ df = pd.DataFrame(data)
 
 print(df)
 # Reading csv file
+df.isna()
