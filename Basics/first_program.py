@@ -105,3 +105,4 @@ df.isna()
 for i in df:
 print(df)
 
+# finding mean
