@@ -106,3 +106,15 @@ for i in df:
 print(df)
 
 # finding mean
+#see the correlation in heatmap
+
+fig = plt.figure(figsize=(20,10))
+
+ax = fig.add_subplot(1, 1, 1)
+ax.set_title('Correlation Between Variable')
+
+sns.heatmap(ibm4.corr(),vmin=-1,
+            vmax=1,cmap='RdYlGn',annot=True,
+            annot_kws={"fontsize":7}, fmt=",.2f")
+
+plt.show()
