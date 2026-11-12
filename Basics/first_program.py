@@ -121,3 +121,8 @@ plt.show()
 
 
 # make dataset for 11:11
+data2s = {
+    'Name': ['John', 'Alice', 'Bob'],
+    'Age': [25, 30, 22],
+    'City': ['Mumbai', 'Delhi', 'Pune']
+}
