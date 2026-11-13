@@ -126,3 +126,4 @@ data2s = {
     'Age': [25, 30, 22],
     'City': ['Mumbai', 'Delhi', 'Pune']
 }
+data2s
