@@ -121,9 +121,19 @@ plt.show()
 
 
 # make dataset for 11:11
-data2s = {
-    'Name': ['John', 'Alice', 'Bob'],
-    'Age': [25, 30, 22],
-    'City': ['Mumbai', 'Delhi', 'Pune']
-}
-data2s
+In [2]: air_quality_no2 = pd.read_csv("data/air_quality_no2_long.csv",
+   ...:                               parse_dates=True)
+   ...: 
+
+In [3]: air_quality_no2 = air_quality_no2[["date.utc", "location",
+   ...:                                    "parameter", "value"]]
+   ...: 
+
+In [4]: air_quality_no2.head()
+Out[4]: 
+                    date.utc location parameter  value
+0  2019-06-21 00:00:00+00:00  FR04014       no2   20.0
+1  2019-06-20 23:00:00+00:00  FR04014       no2   21.8
+2  2019-06-20 22:00:00+00:00  FR04014       no2   26.5
+3  2019-06-20 21:00:00+00:00  FR04014       no2   24.9
+4  2019-06-20 20:00:00+00:00  FR04014       no2   21.4
