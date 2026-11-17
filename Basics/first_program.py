@@ -142,4 +142,15 @@ Out[4]:
 
 
 
+#import pandas as pd
+
+# Create a DataFrame from a dictionary
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age':,
+    'City': ['Mumbai', 'Delhi', 'Pune']
+}
+
+df = pd.DataFrame(data)
+print(df)
 
