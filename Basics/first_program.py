@@ -154,4 +154,6 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-# crosstab
+# crosstab syntax
+pd.crosstab(index, columns, values=None, aggfunc=None, margins=False, normalize=False)
+
