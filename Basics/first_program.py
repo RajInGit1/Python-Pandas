@@ -153,6 +153,7 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+df.isnull()
 
 # crosstab syntax
 pd.crosstab(index, columns, values=None, aggfunc=None, margins=False, normalize=False)
