@@ -142,8 +142,7 @@ Out[4]:
 
 
 
-#import pandas as pd
-
+hg  
 # Create a DataFrame from a dictionary
 data = {
     'Name': ['Alice', 'Bob', 'Charlie'],
