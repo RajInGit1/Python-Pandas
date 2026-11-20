@@ -142,7 +142,7 @@ Out[4]:
 
 
 
-hg  
+
 # Create a DataFrame from a dictionary
 data = {
     'Name': ['Alice', 'Bob', 'Charlie'],
