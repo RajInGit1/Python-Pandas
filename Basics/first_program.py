@@ -128,7 +128,6 @@ In [2]: air_quality_no2 = pd.read_csv("data/air_quality_no2_long.csv",
 
 In [3]: air_quality_no2 = air_quality_no2[["date.utc", "location",
    ...:                                    "parameter", "value"]]
-   ...: 
 
 In [4]: air_quality_no2.head()
 Out[4]: 
