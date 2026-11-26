@@ -28,3 +28,13 @@ CTR = (total_clicks / total_impressions) * 100
 Purchase_Rate = (total_purchases / total_clicks) * 100
 
 ROAS = total_purchase_value / total_spend
+
+
+
+
+print("CPM:", CPM)
+print("CPC:", CPC)
+print("CPR:", CPR)
+print("CTR:", CTR)
+print("Purchase Rate:", Purchase_Rate)
+print("ROAS:", ROAS)
